@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "teste"
+                echo "teste merge"
                 sh 'npm install'
             }
         }
